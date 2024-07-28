@@ -2,4 +2,5 @@
 set -e
 
 # Stop the running container (if any)
-docker rm -f  $(docker ps -a -q)
+# docker rm -f  $(docker ps -a -q)
+echo "This is stop script"
